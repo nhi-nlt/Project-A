@@ -138,8 +138,8 @@ body {
   2.1. Header Top CSS
 ----------------------------------------*/
 .header-top{
-	background: #0083c1 none repeat scroll 0 0;
-	border-bottom: 1px solid #1198d8;
+	background: #000 none repeat scroll 0 0;
+	border-bottom: 1px solid #fff;
 	z-index: 21;
 }
 .header-top-bar{}
@@ -288,7 +288,7 @@ body {
   2.2. Header Bottom CSS
 ----------------------------------------*/
 .header-bottom{
-	background: #0091d5 none repeat scroll 0 0;
+	background: #000 none repeat scroll 0 0;
 	padding: 28px 0;
 }
 .header-bottom-inner{}
@@ -2053,6 +2053,7 @@ margin-right: 15px;
   12. Scroll Up CSS
 ========================================*/
 #scrollUp {
+	border-radius: 50%;
 	background: #73D33F none repeat scroll 0 0;
 	border-radius: 0;
 	bottom: 20px;
